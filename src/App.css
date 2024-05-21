@@ -1,31 +1,99 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.App-title{
+  font-size: 30px; 
+  color:#000000
+}
+
+.image-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: 20px 0;
+}
+
+.main-image {
+  width: 300px;
+  height: auto;
+  margin: 0 20px;
+}
+
+.side-image {
+  width: 150px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.tables-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.table-header {
+  font-size: 32px; 
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.info-table {
+  margin: 0 20px;
+}
+
+.text {
+  margin: 0 3px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0px;
+  color:rgb(0, 0, 0)
+}
+
+.vs-text {
+  margin: 0 0px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0px;
+  color:blue
+}
+.vs-text2 {
+  margin: 0 0px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0px;
+  color:rgb(255, 0, 0)
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 0px 20px;
+  background-color: #000000;
   color: white;
+  text-decoration: none;
+  border-radius: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover {
+  background-color: #000000;
 }
 
-.heart {
-  color: #ff0000;
-}
-
-.small {
-  font-size: 0.75rem;
+.match-details {
+  margin-top: 20px;
+  font-size: 18px;
 }
